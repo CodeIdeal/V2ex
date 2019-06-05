@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>com.your.company.unique.plugin.id</id>
+    <name>V2ex</name>
+    <version>1.0</version>
+    <vendor email="kanniu@163.com" url="http://www.cideideal.com">Codeideal</vendor>
+
+    <description><![CDATA[
+      Browse community posts anytime, anywhere.<br>
+      loaf on the job~
+    ]]></description>
+
+    <change-notes><![CDATA[
+      this is a personal side project.<br>
+      be nice and feedback~
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <toolWindow id="Panel" anchor="bottom" factoryClass="ui.Panel" icon="/icons/v2ex.png"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
